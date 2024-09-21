@@ -2,10 +2,10 @@
 
 Este repositório contém exercícios e projetos desenvolvidos durante meus estudos em Ciências da Computação. Os tópicos abordados incluem:
 
-Estruturas de Dados: listas, pilhas, filas, árvores e grafos.
-Algoritmos: busca, ordenação, recursão e técnicas de otimização.
-Linguagens de Programação: exercícios e projetos práticos em Java, Python, e outras linguagens.
-Cálculo e Matemática Computacional: resolução de problemas usando cálculo diferencial e integral.
-Programação Orientada a Objetos (POO): desenvolvimento de softwares aplicando os princípios de POO.
-Engenharia de Software: boas práticas, design patterns e desenvolvimento ágil.
+Estruturas de Dados: listas, pilhas, filas, árvores e grafos. <br>
+Algoritmos: busca, ordenação, recursão e técnicas de otimização.<br>
+Linguagens de Programação: exercícios e projetos práticos em Java, Python, e outras linguagens.<br>
+Cálculo e Matemática Computacional: resolução de problemas usando cálculo diferencial e integral.<br>
+Programação Orientada a Objetos (POO): desenvolvimento de softwares aplicando os princípios de POO. <br>
+Engenharia de Software: boas práticas, design patterns e desenvolvimento ágil. <br>
 Cada pasta contém atividades específicas, com códigos comentados e instruções detalhadas para facilitar o aprendizado e a compreensão.
