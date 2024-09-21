@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cursive, Helvetica Neue, sans-serif;
+}
+
+body {
+  background: rgb(249, 250, 16);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 250, 16, 1) 0%,
+    rgba(238, 31, 35, 0.6166841736694677) 100%
+  );
+}
+
+nav {
+  background-image: url(../img/receita.jpg) !important;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  padding-bottom: 220px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0);
+}
+
+ul {
+  display: flex;
+  font-size: 26px;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  margin: auto;
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff00;
+}
+
+li:hover {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagens img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-left: 65px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  color: #610b21;
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 6px;
+}
+
+.imagens {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#imagens-receita {
+  background-image: url(https://us.123rf.com/450wm/m9000m/m9000m1909/m9000m190900147/131120939-ilustra%C3%A7%C3%A3o-vetorial-colher-pequena-garfo-faca-colher-grande-m%C3%A3o-desenho-eps10.jpg) !important;
+  background-color: black;
+}
+
+p {
+  padding: 0.5em;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+#audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#receita {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#video {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.form-container {
+  width: 450px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-style {
+  padding: 20px;
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-bold {
+  font-weight: bolder;
+}
+
+.input-style {
+  background-color: rgba(97, 11, 33, 0.5);
+  margin: 10px 0;
+  width: 80%;
+}
+
+.submit-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ffff00;
+  border: none;
+  background-color: rgba(97, 11, 33, 0.8);
+
+}
+
+::placeholder { /* Seletor para todos os placeholders */
+  color: rgba(0, 0, 0, 0.8); /* Cor preta com 80% de opacidade */
+  opacity: 2; /* Necessário para corrigir a opacidade no Firefox */
+  font-size: 20px;
+  text-align: center;
+}
