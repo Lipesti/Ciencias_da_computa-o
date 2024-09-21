@@ -1,3 +1,5 @@
+<h1>Atividades de Ciências da Computação</h1>
+
 Este repositório contém exercícios e projetos desenvolvidos durante meus estudos em Ciências da Computação. Os tópicos abordados incluem:
 
 Estruturas de Dados: listas, pilhas, filas, árvores e grafos.
