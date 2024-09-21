@@ -1,0 +1,25 @@
+Algoritmo "Equacao_Segundo_Grau"
+Var
+    a, b, c, delta, raiz1, raiz2: real
+Inicio
+    // Entrada de dados
+    Escreva("Informe o coeficiente a: ")
+    Leia(a)
+    Escreva("Informe o coeficiente b: ")
+    Leia(b)
+    Escreva("Informe o coeficiente c: ")
+    Leia(c)
+    
+    // Cálculo do delta
+    delta <- (b * b) - (4 * a * c)
+    
+    // Verificação de raízes reais
+    Se delta >= 0 Entao
+        raiz1 <- (-b + raizq(delta)) / (2 * a)
+        raiz2 <- (-b - raizq(delta)) / (2 * a)
+        Escreva("Raiz 1: ", raiz1, "\n")
+        Escreva("Raiz 2: ", raiz2)
+    Senao
+        Escreva("A equação não possui raízes reais.")
+    FimSe
+Fimalgoritmo

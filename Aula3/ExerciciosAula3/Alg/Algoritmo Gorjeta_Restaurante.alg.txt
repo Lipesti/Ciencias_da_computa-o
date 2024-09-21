@@ -1,0 +1,14 @@
+Algoritmo "Gorjeta_Restaurante"
+Var
+    gasto, total: real
+Inicio
+    // Entrada de dados
+    Escreva("Informe o valor do gasto do cliente: ")
+    Leia(gasto)
+    
+    // Cálculo do total com gorjeta
+    total <- gasto * 1.10
+    
+    // Saída de dados
+    Escreva("O valor total a ser pago, incluindo a gorjeta, é: ", total)
+Fimalgoritmo
