@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    background: linear-gradient(to right, #182848, #4b6cb7);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.itens {
+    flex: 1;
+    border: 1px solid black;
+    margin-left: 6%;
+    padding-left: 20px;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9);
+}
+
+p {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+li{
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+
+}
+
+#opn{
+    margin: auto;
+    width: 300px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+textarea{
+    font-size: 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+#opn textarea::placeholder {
+    color: #000000; 
+    font-weight: bolder;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: white !important;
+    letter-spacing: 3px;
+    padding: 10px;
+}

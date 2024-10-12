@@ -1,0 +1,18 @@
+Algoritmo "Calculo_Cilindro"
+Var
+    r, h, areaBase, volume: real
+Inicio
+    // Entrada de dados
+    Escreva("Informe o raio da base do cilindro: ")
+    Leia(r)
+    Escreva("Informe a altura do cilindro: ")
+    Leia(h)
+    
+    // Cálculos
+    areaBase <- 3.14 * r * r
+    volume <- h * 3.14 * r * r
+    
+    // Saída de dados
+    Escreva("Área da base do cilindro: ", areaBase, "\n")
+    Escreva("Volume do cilindro: ", volume)
+Fimalgoritmo

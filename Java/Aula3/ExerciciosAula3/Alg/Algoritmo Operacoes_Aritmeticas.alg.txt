@@ -1,0 +1,24 @@
+Algoritmo "Operacoes_Aritmeticas"
+Var
+    num1, num2, soma, subtracao, multiplicacao, divisao, resto: inteiro
+Inicio
+    // Entrada de dados
+    Escreva("Informe o primeiro número: ")
+    Leia(num1)
+    Escreva("Informe o segundo número: ")
+    Leia(num2)
+    
+    // Operações aritméticas
+    soma <- num1 + num2
+    subtracao <- num1 - num2
+    multiplicacao <- num1 * num2
+    divisao <- num1 / num2
+    resto <- num1 % num2
+    
+    // Saída de dados
+    Escreva("Soma: ", soma, "\n")
+    Escreva("Subtração: ", subtracao, "\n")
+    Escreva("Multiplicação: ", multiplicacao, "\n")
+    Escreva("Divisão: ", divisao, "\n")
+    Escreva("Resto da divisão: ", resto)
+Fimalgoritmo
